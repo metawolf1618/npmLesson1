@@ -1,0 +1,14 @@
+{
+  "socketPath": "/var/folders/st/hr_rlm1x1tsfrryyyrn2p1380000gn/T/mcp-7aRzin/mcp.sock",
+  "scheme": "unix",
+  "headers": {
+    "Authorization": "Nonce 8ae5ef3a-58d2-43d7-9724-6c88ff9f55b4"
+  },
+  "pid": 3173,
+  "ideName": "Visual Studio Code",
+  "timestamp": 1794962697195,
+  "workspaceFolders": [
+    "/Users/metawolf1618/Desktop/Smith_Quincy_DEV2501"
+  ],
+  "isTrusted": true
+}

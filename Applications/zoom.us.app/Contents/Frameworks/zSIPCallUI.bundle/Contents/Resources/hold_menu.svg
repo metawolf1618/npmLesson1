@@ -1,0 +1,7 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="2" width="3" height="12" rx="1" fill="#555B62"/>
+<rect x="12" y="2" width="3" height="12" rx="1" fill="#555B62"/>
+<zoom name="hold_menu_dark" style="dark" value="|:#FFFFFF|:#FFFFFF"/>
+<zoom name="hold_menu_white" style="white" value="|:#FFFFFF|:#FFFFFF"/>
+<zoom name="hold_menu_white_dark" style="white_dark" value="|:#555B62|:#555B62"/>
+</svg>

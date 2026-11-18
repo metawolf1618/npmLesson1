@@ -1,0 +1,87 @@
+git config --global user.name "Quincy Smith"\
+git config --global user.email "qscorleone4@gmail.com"
+cd desktop
+cd Smtih_Quincy_DEV2501
+cd smith_quincy_dev2501
+npm install
+git init\
+git branch -M main
+git remote add origin https://github.com/metawolf1618/smith_quincy_dev2501.git
+git add README.md\
+git commit -m "Update README with student and course details"\
+git push -u origin main
+git pull origin main --allow-unrelated-histories
+git push -u origin main
+git push -u origin main --force
+git pull origin main --allow-unrelated-histories --no-rebase
+git push -u origin main
+git checkout -b dev
+git add README.md\
+git commit -m "Add top 3 GitHub commands to README on dev branch"\
+git push -u origin dev
+npm install
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+cd ..
+cd ..
+cd documents
+ls -l | grep fsdas
+cd ..
+cd downloads
+ls -l | grep fsdas
+ls -1 | grep fsdas
+cd downloads
+ls -l | grep fsdas
+chmod 400 fsdas1.pem
+ls -l | grep fsdas
+ssh -i fsdas1.pem ubuntu@ec2-54-85-197-52.compute-1.amazonaws.com
+git checkout -b 01_Components
+git push -u origin 01_Components
+npm run dev
+cd desktop
+ubuntu@ip-172-31-1-140:~$ prompt.
+mongosh
+npm install react-icons
+git checkout -b 02_Application\
+git add .\
+git commit -m "Complete 2.3 CRUD Interface with Class Components and Lifecycle"\
+git push origin 02_Application
+npm run dev
+cd ..
+sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade
+cd desktop
+ssh -i fsdas1.pem ubuntu@ec2-54-85-197-52.compute-1.amazonaws.com
+ls -la | grep fsdas1.pem
+ssh -i fsdas1.pem ubuntu@ec2-54-85-197-52.compute-1.amazonaws.com
+cd ..
+ssh -i fsdas1.pem ubuntu@ec2-54-85-197-52.compute-1.amazonaws.com
+cd Downloads
+ls -l | grep
+ls -l | grep fsdas
+ssh -i fsdas1.pem ubuntu@ec2-54-85-197-52.compute-1.amazonaws.com\
+
+ssh -i fsdas1.pem ubuntu@ec2-54-85-197-52.compute-1.amazonaws.com
+cd downloads
+ssh -i fsdas1.pem ubuntu@ec2-54-85-197-52.compute-1.amazonaws.com\
+
+cd downloads
+ssh -i fsdas1.pem ubuntu@ec2-54-85-197-52.compute-1.amazonaws.com\
+
+cd downloads
+ssh -i fsdas1.pem ubuntu@ec2-54-85-197-52.compute-1.amazonaws.com\
+
+ssh -i fsdas1.pem ubuntu@ec2-54-85-197-52.compute-1.amazonaws.com
+sudo reboot now
+ssh -i fsdas1.pem ubuntu@ec2-54-85-197-52.compute-1.amazonaws.com\
+
+ps -ef | grep mysql
+ssh -i fsdas1.pem ubuntu@ec2-54-85-197-52.compute-1.amazonaws.com\
+
+ssh -i fsdas1.pem ubuntu@ec2-54-85-197-52.compute-1.amazonaws.com\
+
+cd downloads
+ssh -i fsdas1.pem ubuntu@ec2-54-85-197-52.compute-1.amazonaws.com\
+

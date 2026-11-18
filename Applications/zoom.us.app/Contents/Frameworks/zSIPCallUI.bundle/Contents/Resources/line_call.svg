@@ -1,0 +1,7 @@
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.778 1H2.667C2.2055 1 1.789 1.189 1.489 1.489C1.189 1.789 1 2.2055 1 2.6665C1 7.272 4.7275 11 9.3335 11C9.3505 11 9.3675 11 9.3845 11C10.2845 10.9945 11 10.2335 11 9.3335V8.222C11 7.6085 10.5025 7.111 9.889 7.111H8.913C8.4705 7.111 8.047 7.2865 7.7345 7.5995L7.2845 8.049C7.177 8.1565 7.032 8.216 6.886 8.216C6.8085 8.216 6.7305 8.199 6.6585 8.1635C5.4295 7.5645 4.4355 6.571 3.8365 5.342C3.7345 5.133 3.787 4.88 3.9515 4.7155L4.401 4.266C4.7135 3.9535 4.889 3.5295 4.889 3.0875V2.111C4.889 1.4975 4.3915 1 3.778 1Z" fill="#E02828"/>
+<zoom name="line_call_white" style="white" value="|:#FFFFFF"/>
+<zoom name="line_call_black" style="black" value="|:#232333"/>
+<zoom name="line_call_red" style="red" value="|:#E02828"/>
+<zoom name="line_call_black_dark" style="black_dark" value="|:#F5F5F5"/>
+</svg>

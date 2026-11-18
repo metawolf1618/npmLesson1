@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="">
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=0" />
+<title>Activity Center</title>
+<style>
+  html,
+  body {
+    overflow: hidden;
+    /* margin-right: 1px; */
+    height: 100%;
+    width: 100%;
+    background-color: var(--setting-background-color);
+    margin: 0;
+    font-family: -apple-system, 'SF Pro Text', 'Segoe UI';
+  }
+
+  ::-webkit-scrollbar {
+    background: transparent;
+    height: 8px;
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #dadce0;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    min-height: 40px;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+
+  #app {
+    flex: 1;
+  }
+  .error-page {
+    display: none;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .error-page .reload {
+    cursor: pointer;
+    background-color: #0D6BDE;
+    color: #fff;
+    padding: 5px 11px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+</style>
+<script src="./sdk.js"></script>
+  
+  
+  <link rel="stylesheet" href="./assets/zoom-ui-vue3-BiHGjLS_.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  <div class="error-page">
+    There was an error while loading the page
+    <div class="reload" onclick="window.location.reload()">Reload</div>
+  </div>
+  <script id="vite-legacy-polyfill" src="./assets/polyfills-legacy-jdAwqA9S.js"></script>
+  <script id="vite-legacy-entry" src="./assets/index-legacy-b3nH81bk.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('src'))</script>
+</body>
+

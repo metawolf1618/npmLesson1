@@ -1,0 +1,1 @@
+"use strict";(()=>{(self.webpackChunk_zoom_client_calendar_desktop=self.webpackChunk_zoom_client_calendar_desktop||[]).push([[6545],{96545:((c,u,e)=>{e.r(u),e.d(u,{default:()=>n});const n={common:{confirm:"\u786E\u5B9A",cancel:"\u53D6\u6D88",testMsg:"\u4F60\u597D {name}, \u4F60\u6709{count}\u6761\u6D88\u606F"}}})}]);})();

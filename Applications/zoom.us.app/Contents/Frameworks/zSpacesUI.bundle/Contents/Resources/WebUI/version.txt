@@ -1,0 +1,6 @@
+Release Version: 7.1.5
+Build Version: 7.1.5.530
+Build Time: 2026-07-10 07:49:53Z
+Branch: release-client-7.x
+Commit SHA:
+main/client-spaces: d832f1159b5f83ac0b208641e33d74a430a7ffb7

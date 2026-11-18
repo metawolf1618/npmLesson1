@@ -1,0 +1,247 @@
+[
+  {
+    "shortDescription" : "DECODER Model for Active Speaker Detection",
+    "metadataOutputVersion" : "3.0",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 1 × 480)",
+        "shortDescription" : "Model predictions",
+        "shape" : "[1, 1, 480]",
+        "name" : "output",
+        "type" : "MultiArray"
+      }
+    ],
+    "version" : "1.0",
+    "modelParameters" : [
+
+    ],
+    "author" : "AI Audio Codec Converter",
+    "specificationVersion" : 9,
+    "storagePrecision" : "Float16",
+    "license" : "Custom",
+    "mlProgramOperationTypeHistogram" : {
+      "Ios18.expandDims" : 1,
+      "Ios18.mul" : 63,
+      "Ios18.sin" : 29,
+      "Ios18.greaterEqual" : 2,
+      "Select" : 2,
+      "Ios18.readState" : 18,
+      "Ios18.gather" : 12,
+      "Ios18.add" : 46,
+      "Ios16.reduceSum" : 1,
+      "Ios18.randomNormal" : 4,
+      "Ios18.reshape" : 1,
+      "Ios18.sliceUpdate" : 18,
+      "Ios18.writeState" : 18,
+      "Ios18.conv" : 43,
+      "Ios18.concat" : 19,
+      "Ios18.tanh" : 1,
+      "Ios18.sub" : 29,
+      "Ios18.transpose" : 12,
+      "Ios18.cast" : 16,
+      "Ios18.pow" : 29,
+      "Ios18.convTranspose" : 4,
+      "Ios18.sliceByIndex" : 34
+    },
+    "computePrecision" : "Mixed (Float16, Float32, Int16, Int32, UInt16)",
+    "stateSchema" : [
+      {
+        "dataType" : "Float16",
+        "isOptional" : "0",
+        "formattedType" : "State (Float16 1 × 512 × 6)",
+        "shortDescription" : "",
+        "shape" : "[1, 512, 6]",
+        "name" : "state_0",
+        "type" : "State"
+      },
+      {
+        "dataType" : "Float16",
+        "isOptional" : "0",
+        "formattedType" : "State (Float16 1 × 512 × 1)",
+        "shortDescription" : "",
+        "shape" : "[1, 512, 1]",
+        "name" : "state_1",
+        "type" : "State"
+      },
+      {
+        "dataType" : "Float16",
+        "isOptional" : "0",
+        "formattedType" : "State (Float16 1 × 256 × 6)",
+        "shortDescription" : "",
+        "shape" : "[1, 256, 6]",
+        "name" : "state_2",
+        "type" : "State"
+      },
+      {
+        "dataType" : "Float16",
+        "isOptional" : "0",
+        "formattedType" : "State (Float16 1 × 256 × 18)",
+        "shortDescription" : "",
+        "shape" : "[1, 256, 18]",
+        "name" : "state_3",
+        "type" : "State"
+      },
+      {
+        "dataType" : "Float16",
+        "isOptional" : "0",
+        "formattedType" : "State (Float16 1 × 256 × 54)",
+        "shortDescription" : "",
+        "shape" : "[1, 256, 54]",
+        "name" : "state_4",
+        "type" : "State"
+      },
+      {
+        "dataType" : "Float16",
+        "isOptional" : "0",
+        "formattedType" : "State (Float16 1 × 256 × 1)",
+        "shortDescription" : "",
+        "shape" : "[1, 256, 1]",
+        "name" : "state_5",
+        "type" : "State"
+      },
+      {
+        "dataType" : "Float16",
+        "isOptional" : "0",
+        "formattedType" : "State (Float16 1 × 128 × 6)",
+        "shortDescription" : "",
+        "shape" : "[1, 128, 6]",
+        "name" : "state_6",
+        "type" : "State"
+      },
+      {
+        "dataType" : "Float16",
+        "isOptional" : "0",
+        "formattedType" : "State (Float16 1 × 128 × 18)",
+        "shortDescription" : "",
+        "shape" : "[1, 128, 18]",
+        "name" : "state_7",
+        "type" : "State"
+      },
+      {
+        "dataType" : "Float16",
+        "isOptional" : "0",
+        "formattedType" : "State (Float16 1 × 128 × 54)",
+        "shortDescription" : "",
+        "shape" : "[1, 128, 54]",
+        "name" : "state_8",
+        "type" : "State"
+      },
+      {
+        "dataType" : "Float16",
+        "isOptional" : "0",
+        "formattedType" : "State (Float16 1 × 128 × 1)",
+        "shortDescription" : "",
+        "shape" : "[1, 128, 1]",
+        "name" : "state_9",
+        "type" : "State"
+      },
+      {
+        "dataType" : "Float16",
+        "isOptional" : "0",
+        "formattedType" : "State (Float16 1 × 64 × 6)",
+        "shortDescription" : "",
+        "shape" : "[1, 64, 6]",
+        "name" : "state_10",
+        "type" : "State"
+      },
+      {
+        "dataType" : "Float16",
+        "isOptional" : "0",
+        "formattedType" : "State (Float16 1 × 64 × 18)",
+        "shortDescription" : "",
+        "shape" : "[1, 64, 18]",
+        "name" : "state_11",
+        "type" : "State"
+      },
+      {
+        "dataType" : "Float16",
+        "isOptional" : "0",
+        "formattedType" : "State (Float16 1 × 64 × 54)",
+        "shortDescription" : "",
+        "shape" : "[1, 64, 54]",
+        "name" : "state_12",
+        "type" : "State"
+      },
+      {
+        "dataType" : "Float16",
+        "isOptional" : "0",
+        "formattedType" : "State (Float16 1 × 64 × 1)",
+        "shortDescription" : "",
+        "shape" : "[1, 64, 1]",
+        "name" : "state_13",
+        "type" : "State"
+      },
+      {
+        "dataType" : "Float16",
+        "isOptional" : "0",
+        "formattedType" : "State (Float16 1 × 32 × 6)",
+        "shortDescription" : "",
+        "shape" : "[1, 32, 6]",
+        "name" : "state_14",
+        "type" : "State"
+      },
+      {
+        "dataType" : "Float16",
+        "isOptional" : "0",
+        "formattedType" : "State (Float16 1 × 32 × 18)",
+        "shortDescription" : "",
+        "shape" : "[1, 32, 18]",
+        "name" : "state_15",
+        "type" : "State"
+      },
+      {
+        "dataType" : "Float16",
+        "isOptional" : "0",
+        "formattedType" : "State (Float16 1 × 32 × 54)",
+        "shortDescription" : "",
+        "shape" : "[1, 32, 54]",
+        "name" : "state_16",
+        "type" : "State"
+      },
+      {
+        "dataType" : "Float16",
+        "isOptional" : "0",
+        "formattedType" : "State (Float16 1 × 32 × 6)",
+        "shortDescription" : "",
+        "shape" : "[1, 32, 6]",
+        "name" : "state_17",
+        "type" : "State"
+      }
+    ],
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "15.0",
+      "tvOS" : "18.0",
+      "visionOS" : "2.0",
+      "watchOS" : "11.0",
+      "iOS" : "18.0",
+      "macCatalyst" : "18.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_mlProgram"
+    },
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Int32",
+        "formattedType" : "MultiArray (Int32 1 × 12)",
+        "shortDescription" : "Audio tensor with shape [1, 12]",
+        "shape" : "[1, 12]",
+        "name" : "input",
+        "type" : "MultiArray"
+      }
+    ],
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.conversion_date" : "2026-04-13",
+      "com.github.apple.coremltools.source" : "torch==2.1.0",
+      "com.github.apple.coremltools.version" : "9.0",
+      "com.github.apple.coremltools.source_dialect" : "TorchScript"
+    },
+    "generatedClassName" : "decoder_fp16",
+    "method" : "predict"
+  }
+]

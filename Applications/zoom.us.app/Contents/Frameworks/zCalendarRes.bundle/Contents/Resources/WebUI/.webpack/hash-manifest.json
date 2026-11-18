@@ -1,0 +1,58 @@
+{
+  "": [
+    "calendar-view"
+  ],
+  "calendar": [
+    "calendar-view"
+  ],
+  "calendar-settings": [
+    "calendar-view",
+    "calendar-settings",
+    "vue-route"
+  ],
+  "connect-calendar": [
+    "calendar-view",
+    "connect-calendar"
+  ],
+  "disaster-calendar": [
+    "disaster-calendar"
+  ],
+  "event-card": [
+    "event-card"
+  ],
+  "event-detail": [
+    "event-detail"
+  ],
+  "eventItem": [
+    "tooltip"
+  ],
+  "eventedit": [
+    "calendar-view",
+    "event-edit"
+  ],
+  "in-meeting-info": [
+    "in-meeting-info"
+  ],
+  "moreOptions": [
+    "more-options"
+  ],
+  "newMain": [
+    "calendar-view"
+  ],
+  "operationDialog": [
+    "operation-dialog"
+  ],
+  "portrait-calendar": [
+    "sidebar"
+  ],
+  "provider": [
+    "calendar-view",
+    "vue-route"
+  ],
+  "recording": [
+    "recordings"
+  ],
+  "scheduler": [
+    "scheduler"
+  ]
+}

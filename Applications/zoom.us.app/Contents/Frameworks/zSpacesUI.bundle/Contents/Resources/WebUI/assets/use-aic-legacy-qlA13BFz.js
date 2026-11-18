@@ -1,0 +1,1 @@
+System.register(["./desktop-legacy-WJhybRzw.js"],function(e,t){var o,r;return{setters:[function(e){o=e.hn,r=e.sr}],execute:function(){e("t",o("aic",()=>{const e=r("");return{roomName:e,setRoomName:({roomName:t})=>{e.value=t}}}))}}});

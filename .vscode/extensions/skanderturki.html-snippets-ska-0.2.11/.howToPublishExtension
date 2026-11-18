@@ -1,0 +1,5 @@
+Package:
+vsce package minor/major/patch
+
+Publish:
+vsce publish minor/major/patch

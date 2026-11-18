@@ -1,0 +1,6 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9.41965 9.61267L11.4575 6.75964C11.7234 6.38741 12.2766 6.38741 12.5425 6.75964L14.5804 9.61267C14.8956 10.0539 14.5801 10.6668 14.0379 10.6668H12.8333V11.2064C12.8333 13.4159 14.2125 15.3905 16.2869 16.1511L15.7131 17.7159C14.0881 17.12 12.7871 15.9583 12 14.5022C11.2129 15.9583 9.91195 17.12 8.28689 17.7159L7.71313 16.1511C9.78756 15.3905 11.1667 13.4159 11.1667 11.2064V10.6668H9.96214C9.41989 10.6668 9.10448 10.0539 9.41965 9.61267Z" fill="#232333"/>
+<zoom name="mergeCall_menu_hover" style="menu_hover" value="|:#FFFFFF"/>
+<zoom name="mergeCall_menu" style="menu" value="|:#747485"/>
+<zoom name="mergeCall_dark" style="dark" value="|:#F5F5F5"/>
+</svg>

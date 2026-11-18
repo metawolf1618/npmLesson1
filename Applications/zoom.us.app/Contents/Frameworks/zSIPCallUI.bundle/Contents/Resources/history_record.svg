@@ -1,0 +1,7 @@
+<svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g fill="#555B62">
+        <path d="M9.625 7a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M7 13.563A6.562 6.562 0 1 0 7 .438a6.562 6.562 0 0 0 0 13.124Zm0-.73A5.833 5.833 0 1 0 7 1.167a5.833 5.833 0 0 0 0 11.666Z"/>
+    </g>
+    <zoom style="dark" value="|:#DFE3E8"/>
+</svg>

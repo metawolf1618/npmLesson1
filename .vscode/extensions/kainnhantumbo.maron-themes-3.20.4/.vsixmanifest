@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+		<Metadata>
+			<Identity Language="en-US" Id="maron-themes" Version="3.20.4" Publisher="KainNhantumbo" />
+			<DisplayName>Maron Themes</DisplayName>
+			<Description xml:space="preserve">Pack of well curated themes with Editor UI and Semantics consistency in mind, backed with love for a seamless coding experience!</Description>
+			<Tags>theme,theme pack,solarized,sonokai,monokai,dracula,drakula,flat,collection,night owl,soul reaper,owl,atom,one dark,origins,code,modern,dark plus,moon,brownie,material,everforest,tokyo night,sandbox,mozambique,github,vitesse,gruvbox,halcyon,solaris,forest,rosetta,fleet,ocean,darcula,slime,nord,copilot,oceanic,oceanic next,hacker,operator,catppuccin,chocolate,dark theme,maron themes,maron,color-theme,__web_extension</Tags>
+			<Categories>Themes,Extension Packs,Other</Categories>
+			<GalleryFlags>Public</GalleryFlags>
+			
+			<Properties>
+				<Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.54.0" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="ui,workspace,web" />
+				<Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.EnabledApiProposals" Value="" />
+				
+				
+				
+				<Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/KainNhantumbo/maron-themes.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/KainNhantumbo/maron-themes.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/KainNhantumbo/maron-themes.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/KainNhantumbo/maron-themes/issues" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/KainNhantumbo/maron-themes#readme" />
+				
+				
+				<Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+				<Property Id="Microsoft.VisualStudio.Services.Content.Pricing" Value="Free"/>
+
+				
+				
+			</Properties>
+			<License>extension/LICENSE.txt</License>
+			<Icon>extension/icons/logo.png</Icon>
+		</Metadata>
+		<Installation>
+			<InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+		</Installation>
+		<Dependencies/>
+		<Assets>
+			<Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+			<Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/readme.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/changelog.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.txt" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/icons/logo.png" Addressable="true" />
+		</Assets>
+	</PackageManifest>

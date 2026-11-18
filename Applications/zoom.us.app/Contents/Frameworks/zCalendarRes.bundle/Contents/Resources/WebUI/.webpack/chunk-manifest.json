@@ -1,0 +1,196 @@
+{
+  "svg-sprite": [
+    "static/js/svg-sprite.10216951.js"
+  ],
+  "i18n-domain-login-en": [
+    "static/js/i18n-domain-login-en.e13936dc.js"
+  ],
+  "i18n-calendar-desktop-de": [
+    "static/js/i18n-calendar-desktop-de.c0f06a02.js"
+  ],
+  "i18n-calendar-desktop-es": [
+    "static/js/i18n-calendar-desktop-es.2cad72a8.js"
+  ],
+  "i18n-calendar-desktop-fr": [
+    "static/js/i18n-calendar-desktop-fr.245e667b.js"
+  ],
+  "i18n-calendar-desktop-id": [
+    "static/js/i18n-calendar-desktop-id.91057f6b.js"
+  ],
+  "i18n-calendar-desktop-it": [
+    "static/js/i18n-calendar-desktop-it.746aa059.js"
+  ],
+  "i18n-calendar-desktop-jp": [
+    "static/js/i18n-calendar-desktop-jp.b1555caf.js"
+  ],
+  "i18n-calendar-desktop-ko": [
+    "static/js/i18n-calendar-desktop-ko.165f5212.js"
+  ],
+  "i18n-calendar-desktop-nl": [
+    "static/js/i18n-calendar-desktop-nl.3c38c660.js"
+  ],
+  "i18n-calendar-desktop-pl": [
+    "static/js/i18n-calendar-desktop-pl.194064cf.js"
+  ],
+  "i18n-calendar-desktop-pt": [
+    "static/js/i18n-calendar-desktop-pt.e1779dd4.js"
+  ],
+  "i18n-calendar-desktop-ru": [
+    "static/js/i18n-calendar-desktop-ru.496480a4.js"
+  ],
+  "i18n-calendar-desktop-sv": [
+    "static/js/i18n-calendar-desktop-sv.f95cb102.js"
+  ],
+  "i18n-calendar-desktop-tr": [
+    "static/js/i18n-calendar-desktop-tr.7f13d117.js"
+  ],
+  "i18n-calendar-desktop-vi": [
+    "static/js/i18n-calendar-desktop-vi.ef4749fd.js"
+  ],
+  "i18n-calendar-desktop-zhCN": [
+    "static/js/i18n-calendar-desktop-zhCN.a88a2b3c.js"
+  ],
+  "i18n-calendar-desktop-zhTW": [
+    "static/js/i18n-calendar-desktop-zhTW.6939a567.js"
+  ],
+  "i18n-scheduler-de": [
+    "static/js/i18n-scheduler-de.6b4a402d.js"
+  ],
+  "i18n-scheduler-es": [
+    "static/js/i18n-scheduler-es.3afdb303.js"
+  ],
+  "i18n-scheduler-fr": [
+    "static/js/i18n-scheduler-fr.8dfb210f.js"
+  ],
+  "i18n-scheduler-id": [
+    "static/js/i18n-scheduler-id.4128a748.js"
+  ],
+  "i18n-scheduler-it": [
+    "static/js/i18n-scheduler-it.73e62199.js"
+  ],
+  "i18n-scheduler-jp": [
+    "static/js/i18n-scheduler-jp.19bbe01a.js"
+  ],
+  "i18n-scheduler-ko": [
+    "static/js/i18n-scheduler-ko.d62b4787.js"
+  ],
+  "i18n-scheduler-nl": [
+    "static/js/i18n-scheduler-nl.3f86daf0.js"
+  ],
+  "i18n-scheduler-pl": [
+    "static/js/i18n-scheduler-pl.c1105764.js"
+  ],
+  "i18n-scheduler-pt": [
+    "static/js/i18n-scheduler-pt.538c56ec.js"
+  ],
+  "i18n-scheduler-ru": [
+    "static/js/i18n-scheduler-ru.a4d12428.js"
+  ],
+  "i18n-scheduler-sv": [
+    "static/js/i18n-scheduler-sv.3e4c2cec.js"
+  ],
+  "i18n-scheduler-tr": [
+    "static/js/i18n-scheduler-tr.d1bd2b05.js"
+  ],
+  "i18n-scheduler-vi": [
+    "static/js/i18n-scheduler-vi.91077d2d.js"
+  ],
+  "i18n-scheduler-zhCN": [
+    "static/js/i18n-scheduler-zhCN.4f9652d1.js"
+  ],
+  "i18n-scheduler-zhTW": [
+    "static/js/i18n-scheduler-zhTW.c19087da.js"
+  ],
+  "docs-editor-core": [
+    "static/js/chunk-docs-editor.68de0c51.js"
+  ],
+  "sidebar": [
+    "static/js/9809.1447b6e2.js",
+    "static/js/7796.46a78063.js",
+    "static/js/6428.8f4e4f72.js",
+    "static/js/8141.44a23dd9.js",
+    "static/js/5808.eb1c1ddd.js",
+    "static/css/2511.0226ba3a.css",
+    "static/js/2511.00626bd3.js",
+    "static/css/sidebar.ab243b71.css",
+    "static/js/sidebar.6edc0a91.js"
+  ],
+  "disaster-calendar": [
+    "static/css/disaster-calendar.9c1b56fa.css",
+    "static/js/disaster-calendar.317c30c5.js"
+  ],
+  "operation-dialog": [
+    "static/css/operation-dialog.c1f1d09e.css",
+    "static/js/operation-dialog.406d0d3c.js"
+  ],
+  "calendar-view": [
+    "static/js/9809.1447b6e2.js",
+    "static/js/7796.46a78063.js",
+    "static/js/6428.8f4e4f72.js",
+    "static/js/8141.44a23dd9.js",
+    "static/js/9244.169634c1.js",
+    "static/css/4007.1064c97d.css",
+    "static/js/4007.290e8e7d.js",
+    "static/js/5808.eb1c1ddd.js",
+    "static/css/event-edit.e0699ba0.css",
+    "static/js/event-edit.bc1a0d01.js",
+    "static/css/2511.0226ba3a.css",
+    "static/js/2511.00626bd3.js",
+    "static/css/calendar-view.4b04a5da.css",
+    "static/js/calendar-view.908a1426.js"
+  ],
+  "connect-calendar": [
+    "static/css/connect-calendar.9355be8d.css",
+    "static/js/connect-calendar.4e7c7237.js"
+  ],
+  "event-edit": [
+    "static/js/9809.1447b6e2.js",
+    "static/js/7796.46a78063.js",
+    "static/js/6428.8f4e4f72.js",
+    "static/js/8141.44a23dd9.js",
+    "static/js/9244.169634c1.js",
+    "static/css/4007.1064c97d.css",
+    "static/js/4007.290e8e7d.js",
+    "static/js/5808.eb1c1ddd.js",
+    "static/css/event-edit.e0699ba0.css",
+    "static/js/event-edit.bc1a0d01.js"
+  ],
+  "vue-route": [
+    "static/js/5528.8826d9c0.js",
+    "static/css/vue-route.a19f9918.css",
+    "static/js/vue-route.801a7cc7.js"
+  ],
+  "calendar-settings": [
+    "static/css/calendar-settings.2a73daf1.css",
+    "static/js/calendar-settings.8cafe6ed.js"
+  ],
+  "scheduler": [
+    "static/css/scheduler.4cd58ccc.css",
+    "static/js/scheduler.40009f72.js"
+  ],
+  "event-card": [
+    "static/js/event-card.17a0652e.js"
+  ],
+  "event-detail": [
+    "static/css/event-detail.984ec6fe.css",
+    "static/js/event-detail.84f229e5.js"
+  ],
+  "recordings": [
+    "static/css/recordings.9d438298.css",
+    "static/js/recordings.c3afb4be.js"
+  ],
+  "in-meeting-info": [
+    "static/css/in-meeting-info.df67799e.css",
+    "static/js/in-meeting-info.da22ee9e.js"
+  ],
+  "tooltip": [
+    "static/js/9809.1447b6e2.js",
+    "static/js/6428.8f4e4f72.js",
+    "static/css/tooltip.00cf6ef5.css",
+    "static/js/tooltip.ab3cdc62.js"
+  ],
+  "more-options": [
+    "static/css/more-options.59f57042.css",
+    "static/js/more-options.8692a86e.js"
+  ]
+}

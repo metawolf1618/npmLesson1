@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Match Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="game-container">
+        <header class="game-header">
+            <div class="header-info">
+                <h1>Card Match</h1>
+                <p>Find all three matching pairs within 3 attempts.</p>
+            </div>
+            <div class="attempts-display">
+                Attempts left: <span id="attempts-count">3</span>
+            </div>
+        </header>
+
+        <section id="board" class="card-board">
+            <!-- Cards will be dynamically injected via TypeScript -->
+        </section>
+
+        <div id="game-message" class="game-message hidden"></div>
+
+        <button id="restart-btn" class="restart-button hidden">Play Again</button>
+    </main>
+
+    <script type="module" src="dist/game.js"></script>
+</body>
+</html>

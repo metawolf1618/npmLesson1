@@ -1,0 +1,385 @@
+{
+	"name": "maron-themes",
+	"displayName": "Maron Themes",
+	"description": "Pack of well curated themes with Editor UI and Semantics consistency in mind, backed with love for a seamless coding experience!",
+	"version": "3.20.4",
+	"icon": "icons/logo.png",
+	"publisher": "KainNhantumbo",
+	"engines": {
+		"vscode": "^1.54.0"
+	},
+	"categories": [
+		"Themes",
+		"Extension Packs",
+		"Other"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/KainNhantumbo/maron-themes.git"
+	},
+	"bugs": {
+		"url": "https://github.com/KainNhantumbo/maron-themes/issues"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Kain Nhantumbo",
+		"email": "nhantumbok@gmail.com",
+		"url": "https://codenut-dev.vercel.app"
+	},
+	"maintainers": [
+		"Kain Nhantumbo <nahantumbok@gmail.com>"
+	],
+	"scripts": {
+		"build": "vsce package",
+		"format": "npx prettier --write \"**/*.{md,json}\"",
+		"push": "vsce publish"
+	},
+	"keywords": [
+		"theme",
+		"theme pack",
+		"solarized",
+		"sonokai",
+		"monokai",
+		"dracula",
+		"drakula",
+		"flat",
+		"collection",
+		"night owl",
+		"soul reaper",
+		"owl",
+		"atom",
+		"one dark",
+		"origins",
+		"code",
+		"modern",
+		"dark plus",
+		"moon",
+		"brownie",
+		"material",
+		"everforest",
+		"tokyo night",
+		"sandbox",
+		"mozambique",
+		"github",
+		"vitesse",
+		"gruvbox",
+		"halcyon",
+		"solaris",
+		"forest",
+		"rosetta",
+		"fleet",
+		"ocean",
+		"darcula",
+		"slime",
+		"nord",
+		"copilot",
+		"oceanic",
+		"oceanic next",
+		"hacker",
+		"operator",
+		"catppuccin",
+		"chocolate",
+		"dark theme",
+		"maron themes",
+		"maron"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Maron Theme: Beyond The Fog",
+				"uiTheme": "vs-dark",
+				"path": "./themes/vitesse.json"
+			},
+			{
+				"label": "Maron Theme: Beyond The Fog [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/vitesse-operator.json"
+			},
+			{
+				"label": "Maron Theme: Cappuccino",
+				"uiTheme": "vs-dark",
+				"path": "./themes/cappuccino.json"
+			},
+			{
+				"label": "Maron Theme: Cappuccino [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/cappuccino-operator.json"
+			},
+			{
+				"label": "Maron Theme: Moon Stars",
+				"uiTheme": "vs-dark",
+				"path": "./themes/moon-stars.json"
+			},
+			{
+				"label": "Maron Theme: Moon Stars [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/moon-stars-operator.json"
+			},
+			{
+				"label": "Maron Theme: Choco & Mint",
+				"uiTheme": "vs-dark",
+				"path": "./themes/fleet.json"
+			},
+			{
+				"label": "Maron Theme: Choco & Mint [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/fleet-operator.json"
+			},
+			{
+				"label": "Maron Theme: Code Heroes Summoner",
+				"uiTheme": "vs-dark",
+				"path": "./themes/code.json"
+			},
+			{
+				"label": "Maron Theme: Code Heroes Summoner [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/code-operator.json"
+			},
+			{
+				"label": "Maron Theme: Colorful Sweets Park",
+				"uiTheme": "vs-dark",
+				"path": "./themes/sweets-park.json"
+			},
+			{
+				"label": "Maron Theme: Colorful Sweets Park [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/sweets-park-operator.json"
+			},
+			{
+				"label": "Maron Theme: Crafter Materials",
+				"uiTheme": "vs-dark",
+				"path": "./themes/crafter-materials.json"
+			},
+			{
+				"label": "Maron Theme: Crafter Materials [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/crafter-materials-operator.json"
+			},
+			{
+				"label": "Maron Theme: Garden of Roses",
+				"uiTheme": "vs-dark",
+				"path": "./themes/rosetta.json"
+			},
+			{
+				"label": "Maron Theme: Garden of Roses [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/rosetta-operator.json"
+			},
+			{
+				"label": "Maron Theme: Github Hidden Dungeon",
+				"uiTheme": "vs-dark",
+				"path": "./themes/github.json"
+			},
+			{
+				"label": "Maron Theme: Github Hidden Dungeon [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/github-operator.json"
+			},
+			{
+				"label": "Maron Theme: Groove Box Party",
+				"uiTheme": "vs-dark",
+				"path": "./themes/gruvbox.json"
+			},
+			{
+				"label": "Maron Theme: Groove Box Party [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/gruvbox-operator.json"
+			},
+			{
+				"label": "Maron Theme: Hot Brownie",
+				"uiTheme": "vs-dark",
+				"path": "./themes/brownie.json"
+			},
+			{
+				"label": "Maron Theme: Hot Brownie [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/brownie-operator.json"
+			},
+			{
+				"label": "Maron Theme: Immortal Dracula",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dracula.json"
+			},
+			{
+				"label": "Maron Theme: Immortal Dracula [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dracula-operator.json"
+			},
+			{
+				"label": "Maron Theme: Scary Monsters Forest",
+				"uiTheme": "vs-dark",
+				"path": "./themes/forest.json"
+			},
+			{
+				"label": "Maron Theme: Scary Monsters Forest [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/forest-operator.json"
+			},
+			{
+				"label": "Maron Theme: Maron Soul Reaper",
+				"uiTheme": "vs-dark",
+				"path": "./themes/soul-reaper.json"
+			},
+			{
+				"label": "Maron Theme: Maron Soul Reaper [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/soul-reaper-operator.json"
+			},
+			{
+				"label": "Maron Theme: Kanagawa Legends",
+				"uiTheme": "vs-dark",
+				"path": "./themes/kanagawa.json"
+			},
+			{
+				"label": "Maron Theme: Kanagawa Legends [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/kanagawa-operator.json"
+			},
+			{
+				"label": "Maron Theme: Nordic Warriors",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nord.json"
+			},
+			{
+				"label": "Maron Theme: Nordic Warriors [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nord-operator.json"
+			},
+			{
+				"label": "Maron Theme: Oceanic Sharks Valley",
+				"uiTheme": "vs-dark",
+				"path": "./themes/oceanic.json"
+			},
+			{
+				"label": "Maron Theme: Oceanic Sharks Valley [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/oceanic-operator.json"
+			},
+			{
+				"label": "Maron Theme: One Prime Pro",
+				"uiTheme": "vs-dark",
+				"path": "./themes/one-prime.json"
+			},
+			{
+				"label": "Maron Theme: One Prime Pro [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/one-prime-operator.json"
+			},
+			{
+				"label": "Maron Theme: Mountain Night Owls",
+				"uiTheme": "vs-dark",
+				"path": "./themes/owl.json"
+			},
+			{
+				"label": "Maron Theme: Mountain Night Owls [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/owl-operator.json"
+			},
+			{
+				"label": "Maron Theme: Brave Fox Waves",
+				"uiTheme": "vs-dark",
+				"path": "./themes/copilot.json"
+			},
+			{
+				"label": "Maron Theme: Brave Fox Waves [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/copilot-operator.json"
+			},
+			{
+				"label": "Maron Theme: Little Bottle Box",
+				"uiTheme": "vs-dark",
+				"path": "./themes/little-box.json"
+			},
+			{
+				"label": "Maron Theme: Little Bottle Box [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/little-box-operator.json"
+			},
+			{
+				"label": "Maron Theme: Maron Origins Pro",
+				"uiTheme": "vs-dark",
+				"path": "./themes/origins.json"
+			},
+			{
+				"label": "Maron Theme: Maron Origins Pro [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/origins-operator.json"
+			},
+			{
+				"label": "Maron Theme: Stellar Angels",
+				"uiTheme": "vs-dark",
+				"path": "./themes/stellar-angels.json"
+			},
+			{
+				"label": "Maron Theme: Stellar Angels [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/stellar-angels-operator.json"
+			},
+			{
+				"label": "Maron Theme: Solarized Planets",
+				"uiTheme": "vs-dark",
+				"path": "./themes/solarized.json"
+			},
+			{
+				"label": "Maron Theme: Solarized Planets Classic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/solarized-classic.json"
+			},
+			{
+				"label": "Maron Theme: Solarized Planets Classic [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/solarized-classic-operator.json"
+			},
+			{
+				"label": "Maron Theme: Solarized Planets Classic [Operator] \"Lite Edition\"",
+				"uiTheme": "vs-dark",
+				"path": "./themes/solarized-classic-operator-lite.json"
+			},
+			{
+				"label": "Maron Theme: Tokyo City Lights",
+				"uiTheme": "vs-dark",
+				"path": "./themes/tokyo-night.json"
+			},
+			{
+				"label": "Maron Theme: Tokyo City Lights [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/tokyo-night-operator.json"
+			},
+			{
+				"label": "Maron Theme: Undead Frost Slime",
+				"uiTheme": "vs-dark",
+				"path": "./themes/slime.json"
+			},
+			{
+				"label": "Maron Theme: Undead Frost Slime [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/slime-operator.json"
+			},
+			{
+				"label": "Maron Theme: Unfair Deadly Spikes",
+				"uiTheme": "vs-dark",
+				"path": "./themes/darcula.json"
+			},
+			{
+				"label": "Maron Theme: Unfair Deadly Spikes [Operator]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/darcula-operator.json"
+			}
+		]
+	},
+	"__metadata": {
+		"publisherId": "f14df197-b888-43d0-9920-e880ee527cc8",
+		"publisherDisplayName": "Kain Nhantumbo",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": true,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1793490178102,
+		"preRelease": false,
+		"size": 1963606
+	},
+	"devDependencies": {
+		"@vscode/vsce": "^3.2.2",
+		"prettier": "^3.4.2"
+	}
+}

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg-color: #fff;
+        }
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          /* --bg-color: #232323; */
+          --bg-color: #141619;
+        }
+      }
+      html, body {
+				width: 100%;
+				height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Segoe UI,Arial,Roboto,PingFang SC,miui,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+        background-color: var(--bg-color);
+        overflow: hidden;
+      }
+      #inputDefaultBox {
+        max-width: 450px;
+        border: 1px solid #C1C6CE;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 8px;
+        color: #6E7680;
+        font-size: 14px;
+        height: 32px;
+        padding: 6px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        margin-top: 60px;
+      }
+    </style>
+    <script src="./sdk.js"></script>
+  </head>
+  <body>
+    <!-- <div id="inputDefaultBox">
+      Search for content or type a URL to add...
+    </div> -->
+    <div id="root"></div>
+    <script id="vite-legacy-polyfill" src="./assets/polyfills-legacy-HYjDl8gb.js"></script>
+    <script id="vite-legacy-entry" src="./assets/index-legacy-CeBdcStF.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('src'))</script>
+  </body>
+</html>
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather & NASA Photo App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Daily Space & Weather Dashboard</h1>
+  </header>
+
+  <main>
+    <!-- Empty state section initialized -->
+    <section id="weather-section">
+      <h2>Local Weather Context</h2>
+      <div id="weather-content"><p>Loading weather data...</p></div>
+    </section>
+
+    <section id="nasa-section">
+      <h2>NASA Astronomy Picture of the Day</h2>
+      <div id="nasa-content"><p>Loading APOD data...</p></div>
+      <button id="refresh-btn">Fetch Fresh Data</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 DEV2301 API Assignment</p>
+  </footer>
+
+  <!-- Type module allows use of ES Module imports -->
+  <script type="module" src="js/app.js"></script>
+  <script type="module" src="js/API.js"></script>
+</body>
+</html>

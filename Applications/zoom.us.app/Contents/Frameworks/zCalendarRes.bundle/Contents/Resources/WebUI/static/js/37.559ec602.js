@@ -1,0 +1,1 @@
+"use strict";(()=>{(self.webpackChunk_zoom_client_calendar_desktop=self.webpackChunk_zoom_client_calendar_desktop||[]).push([[37],{37:((c,e,n)=>{n.r(e),n.d(e,{default:()=>o});const o={common:{confirm:"Confirm",cancel:"Cancel",testMsg:"Hello {name}, you have {count} messages"}}})}]);})();

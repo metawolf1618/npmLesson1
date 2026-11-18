@@ -1,0 +1,82 @@
+{
+	"name": "ocean-dive-themes",
+	"displayName": "Ocean Dive Themes",
+	"description": "Beautiful ocean-themed dark and light themes with Material Design Ocean backgrounds and harmonious color palettes",
+	"version": "0.1.53",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"ocean",
+		"dark",
+		"light",
+		"material",
+		"blue",
+		"dive"
+	],
+	"publisher": "Codetown",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Codetown/ocean-dive-themes.git"
+	},
+	"icon": "images/ocean-logo.png",
+	"galleryBanner": {
+		"color": "#0D47A1",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Ocean Dive Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ocean-dive-dark-color-theme.json"
+			},
+			{
+				"label": "Ocean Dive Light",
+				"uiTheme": "vs",
+				"path": "./themes/ocean-dive-light-color-theme.json"
+			},
+			{
+				"label": "Ocean Abyss Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ocean-abyss-dark-color-theme.json"
+			},
+			{
+				"label": "Ocean Starlit Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/starlit-ocean-dark-color-theme.json"
+			},
+			{
+				"label": "Ocean Twilight Rose",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ocean-midnight-coral-dark-color-theme.json"
+			},
+			{
+				"label": "Ocean Deep Space Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ocean-deep-space-dark-color-theme.json"
+			}
+		]
+	},
+	"scripts": {
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"package": "vsce package",
+		"publish": "vsce publish"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.74.0",
+		"@types/node": "^16.11.7",
+		"typescript": "^4.7.4",
+		"vsce": "^2.7.0"
+	},
+	"__metadata": {
+		"installedTimestamp": 1793490156582,
+		"targetPlatform": "undefined",
+		"size": 1036320
+	}
+}

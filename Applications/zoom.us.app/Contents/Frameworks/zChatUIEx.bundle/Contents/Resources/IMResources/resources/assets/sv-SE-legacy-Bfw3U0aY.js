@@ -1,0 +1,1 @@
+System.register([],(function(t,e){"use strict";return{execute:function(){var e=t("LtTjKV","valt"),r=t("N2IrpM","Bekräfta"),a=t("atzUcB","Citat"),c=t("fboXJN","ej markerad"),n=t("wEQDC6","Redigera"),u=t("xmcVZ0","Sök");t("default",{"/GCoTA":"Rensa","47FYwb":"Annullera",LtTjKV:e,N2IrpM:r,atzUcB:a,fboXJN:c,wEQDC6:n,xmcVZ0:u})}}}));
